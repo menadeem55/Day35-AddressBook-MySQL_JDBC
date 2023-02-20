@@ -13,7 +13,7 @@ public class Contacts {
 	private String emailId;
 	private String contactType;
 	private LocalDate dateAdded;
-	private String BookName;
+	private String BookName;;
 
 	public String getFirstName() {
 		return firstName;
@@ -110,5 +110,4 @@ public class Contacts {
 				+ ", phoneNumber=" + phoneNumber + ", emailId='" + emailId + '\'' + ", contactType='" + contactType
 				+ '\'' + ", dateAdded=" + dateAdded + ", BookName='" + BookName + '\'' + '}';
 	}
-
 }
