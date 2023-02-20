@@ -1,12 +1,6 @@
 package com.bridgelabz.jdbc1.Day35_Addressbook_JDBC;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -14,6 +8,7 @@ public class AddressBookMain {
 	static Scanner scanner = new Scanner(System.in);
 
 	public static void main(String[] args) {
+
 		boolean exit = false;
 		while (!exit) {
 			System.out.println(" Press\n 1 ->  Retrieve data\n 2 -> Update Address,city,state,zip  by srNo\n "
